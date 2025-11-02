@@ -3,7 +3,7 @@
   name: Lint Code Base
   
   on:
-  
+    workflow_dispatch:
     # run anytime a PR is merged to main or a direct push to main
     push:
       branches: [main]
