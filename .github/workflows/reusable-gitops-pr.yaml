@@ -2,6 +2,7 @@
 name: GitOps PR
 
 on:  
+  workflow_dispatch:
   # REUSABLE WORKFLOW with INPUTS
   # to keep this workflow simple, assumptions are made:
     # - Checks out a repo with a kustomization.yaml file
